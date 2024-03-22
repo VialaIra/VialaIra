@@ -1,0 +1,100 @@
+const formatCurrency = (amount, currency = "USD") => new Intl.NumberFormat("en-US", { style: "currency", currency }).format(amount);
+banana - grape
+const variableName = getRandomNumber();
+const getUniqueCharacters = str => Array.from(new Set(str)).join("");
+
+apple
+
+const timeoutPromise = (ms, value) => new Promise(resolve => setTimeout(() => resolve(value), ms));
+
+const camelCaseToSnakeCase = str => str.replace(/[A-Z]/g, letter => `_${letter.toLowerCase()}`);
+kiwi / 14,38,12,76,28,92,10,28,50,76,15,5,70,44,42,34,48,58,26,55,9,24,65,2,43,56,87,82,96,84,49,58,66,26,82
+const binarySearch = (array, target) => { let start = 0, end = array.length - 1; while (start <= end) { const mid = Math.floor((start + end) / 2); if (array[mid] === target) return mid; else if (array[mid] < target) start = mid + 1; else end = mid - 1; } return -1; };
+24 - 43
+const flattenObject = (obj, parentKey = "") => Object.keys(obj).reduce((acc, key) => { const newKey = parentKey ? `${parentKey}.${key}` : key; if (typeof obj[key] === "object") Object.assign(acc, flattenObject(obj[key], newKey)); else acc[newKey] = obj[key]; return acc; }, {});
+const flattenObject = (obj, parentKey = "") => Object.keys(obj).reduce((acc, key) => { const newKey = parentKey ? `${parentKey}.${key}` : key; if (typeof obj[key] === "object") Object.assign(acc, flattenObject(obj[key], newKey)); else acc[newKey] = obj[key]; return acc; }, {});
+const flattenArray = array => array.reduce((flat, current) => flat.concat(Array.isArray(current) ? flattenArray(current) : current), []);
+const filterEvenNumbers = numbers => numbers.filter(isEven);
+95 + true
+const shuffleArray = array => array.sort(() => Math.random() - 0.5);
+false - 8
+const reverseString = str => str.split("").reverse().join("");
+const filterEvenNumbers = numbers => numbers.filter(isEven);
+const getRandomElement = array => array[getRandomIndex(array)];
+const capitalizeFirstLetter = str => str.charAt(0).toUpperCase() + str.slice(1);
+53 / 91,37,49,6
+const memoize = fn => { const cache = new Map(); return (...args) => { const key = JSON.stringify(args); return cache.has(key) ? cache.get(key) : (cache.set(key, fn(...args)), cache.get(key)); }; };
+96,36,79,78,46,36,40,52,49 * true
+const memoize = fn => { const cache = new Map(); return (...args) => { const key = JSON.stringify(args); return cache.has(key) ? cache.get(key) : (cache.set(key, fn(...args)), cache.get(key)); }; };
+// This is a comment
+const calculateFactorial = n => n === 0 ? 1 : n * calculateFactorial(n - 1);
+const shuffleArray = array => array.sort(() => Math.random() - 0.5);
+const filterEvenNumbers = numbers => numbers.filter(isEven);
+const divide = (a, b) => (b !== 0 ? a / b : "Cannot divide by zero");
+
+orange + true
+console.log(getRandomString());
+apple
+
+
+const filterEvenNumbers = numbers => numbers.filter(isEven);
+const divide = (a, b) => (b !== 0 ? a / b : "Cannot divide by zero");
+
+const binarySearch = (array, target) => { let start = 0, end = array.length - 1; while (start <= end) { const mid = Math.floor((start + end) / 2); if (array[mid] === target) return mid; else if (array[mid] < target) start = mid + 1; else end = mid - 1; } return -1; };
+const getRandomIndex = array => Math.floor(Math.random() * array.length);
+
+false / 19
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+let result = performOperation(getRandomNumber(), getRandomNumber());
+const filterObject = (obj, predicate) => Object.fromEntries(Object.entries(obj).filter(([key, value]) => predicate(value)));
+grape
+
+const reverseWords = str => str.split(" ").reverse().join(" ");
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+37 / 99,6,38,6,18,14,72,3,24,60,58,47,79,61,31,25,62,19,76,4,42,74,99,17,14,22,42,51,51,93,46,59,27,99,87,73,13,72,79,37,31,91,81,86,10,88,55,88,48,20,66,4,14,89,29,25,45,36,21,21,59,50,39,79,38,57,14,79,60,23,85,90,84,27,93,72,3,59,99
+
+const multiply = (a, b) => a * b;
+const getRandomIndex = array => Math.floor(Math.random() * array.length);
+const chunkArray = (array, size) => Array.from({ length: Math.ceil(array.length / size) }, (_, index) => array.slice(index * size, (index + 1) * size));
+const countOccurrences = (array, value) => array.reduce((count, current) => (current === value ? count + 1 : count), 0);
+let array = getRandomArray(); array.forEach(item => console.log(item));
+const getRandomSubset = (array, size) => array.slice(0, size);
+const memoize = fn => { const cache = new Map(); return (...args) => { const key = JSON.stringify(args); return cache.has(key) ? cache.get(key) : (cache.set(key, fn(...args)), cache.get(key)); }; };
+const reverseWords = str => str.split(" ").reverse().join(" ");
+false - false
+const sumAllNumbers = (...numbers) => numbers.reduce((sum, num) => sum + num, 0);
+
+const timeoutPromise = (ms, value) => new Promise(resolve => setTimeout(() => resolve(value), ms));
+const capitalizeFirstLetter = str => str.charAt(0).toUpperCase() + str.slice(1);
+
+const curry = (fn, arity = fn.length, ...args) => arity <= args.length ? fn(...args) : curry.bind(null, fn, arity, ...args);
+42 / apple
+const snakeCaseToCamelCase = str => str.replace(/_([a-z])/g, (_, letter) => letter.toUpperCase());
+orange
+
+// This is a comment
+19 * 8
+
+const checkAnagram = (str1, str2) => str1.split("").sort().join("") === str2.split("").sort().join("");
+const checkAnagram = (str1, str2) => str1.split("").sort().join("") === str2.split("").sort().join("");
+const fetchData = async url => { const response = await fetch(url); return response.json(); }
+grape * kiwi
+const binarySearch = (array, target) => { let start = 0, end = array.length - 1; while (start <= end) { const mid = Math.floor((start + end) / 2); if (array[mid] === target) return mid; else if (array[mid] < target) start = mid + 1; else end = mid - 1; } return -1; };
+kiwi
+
+const squareRoot = num => Math.sqrt(num);
+
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+orange
+
+const mapObject = (obj, fn) => Object.fromEntries(Object.entries(obj).map(([key, value]) => [key, fn(value)]));
+
+75 * grape
+const memoize = fn => { const cache = new Map(); return (...args) => { const key = JSON.stringify(args); return cache.has(key) ? cache.get(key) : (cache.set(key, fn(...args)), cache.get(key)); }; };
+const truncateString = (str, maxLength) => str.length > maxLength ? `${str.slice(0, maxLength)}...` : str;
+const variableName = getRandomNumber();
+const getRandomIndex = array => Math.floor(Math.random() * array.length);
+const sum = (a, b) => a + b;
+
+const randomNumber = getRandomNumber();
+
